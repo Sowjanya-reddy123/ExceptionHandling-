@@ -42,13 +42,13 @@ public class MultiOperationHandler {
     }
 
 
-    private void accessArrayElement(int[] array, int index) {
+    public void accessArrayElement(int[] array, int index) {
         int element = array[index];
         System.out.println("Element at index " + index + ": " + element);
     }
 
 
-    private void readFile(String fileName) throws IOException {
+    public void readFile(String fileName) throws IOException {
         File file = new File(fileName);
         Scanner scanner = new Scanner(file);
 
